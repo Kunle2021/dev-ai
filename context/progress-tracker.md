@@ -13,6 +13,7 @@ Update this file whenever the current phase, active feature, or implementation s
 ## Completed
 
 - 01-design-system: shadcn/ui installed and configured, all 7 components added (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea), lucide-react installed, lib/utils.ts with cn() helper created, globals.css updated with full dark theme token set.
+- 02-editor: Editor chrome built — `components/editor/editor-navbar.tsx` (fixed top navbar, sidebar toggle with PanelLeftOpen/PanelLeftClose icons, left/center/right sections) and `components/editor/project-sidebar.tsx` (fixed overlay sidebar, slides in from left via translate-x, Tabs for My Projects/Shared with empty placeholder states, New Project button with Plus icon). No TypeScript or lint errors.
 
 ## In Progress
 
@@ -21,6 +22,7 @@ Update this file whenever the current phase, active feature, or implementation s
 ## Next Up
 
 - Add the next planned feature unit here.
+
 
 ## Open Questions
 
